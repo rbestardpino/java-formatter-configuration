@@ -6,17 +6,17 @@ Opinionated Java formatter Configuration for Eclipse/STS/VSCode
 
 ### eclipse/sts
 
- - Download XML : https://raw.githubusercontent.com/mkkhedawat/java-formatter-configuration/main/vscode-java-rbestardpino-style.xml
- - Open Eclipse > Project Menu > Java Code Style > Formatter > Import > Import Downloaded XML
+- Download XML : https://raw.githubusercontent.com/rbestardpino/java-formatter-configuration/main/vscode-java-rbestardpino-style.xml
+- Open Eclipse > Project Menu > Java Code Style > Formatter > Import > Import Downloaded XML
 
 ### vscode
 
- - Update settings.json in Code > Preference
+- Update settings.json in Code > Preference
 
 ```json
 {
-    "java.format.settings.url": "https://raw.githubusercontent.com/mkkhedawat/java-formatter-configuration/main/vscode-java-rbestardpino-style.xml",
-    "java.format.settings.profile": "rbestardpino"
+  "java.format.settings.url": "https://raw.githubusercontent.com/rbestardpino/java-formatter-configuration/main/vscode-java-rbestardpino-style.xml",
+  "java.format.settings.profile": "rbestardpino"
 }
 ```
 
